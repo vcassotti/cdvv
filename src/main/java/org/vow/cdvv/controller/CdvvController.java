@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class CdvvController {
     @RequestMapping("/main")
-    public String hello(Model model, @RequestParam(value="name", required=false, defaultValue="World") String name) {
+    public String main(Model model, @RequestParam(value="name", required=false, defaultValue="World") String name) {
         model.addAttribute("name", name);
-        return "main";
+        return "views/main";
     }
 }

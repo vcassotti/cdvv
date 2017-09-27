@@ -1,1 +1,1 @@
-${Ansi.GREEN} :: Sample application build with Spring Boot${spring-boot.formatted-version} ::${Ansi.DEFAULT}
+${Ansi.GREEN} :: CDVV build with Spring Boot${spring-boot.formatted-version} ::${Ansi.DEFAULT}
