@@ -1,0 +1,5 @@
+{
+  "name": "CDVV",
+  "description": "cdvv ...",
+  "addons": [ "heroku-postgresql" ]
+}
